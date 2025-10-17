@@ -1,0 +1,6 @@
+services:
+  hotelrealmerced:
+    image: hotelrealmerced
+    build:
+      context: .
+      dockerfile: ./Dockerfile
